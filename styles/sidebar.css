@@ -1,0 +1,31 @@
+.sidebar{
+  z-index: 200;
+  background-color: white;
+  width: 60px;
+  position: fixed;
+  left: 0px;
+  top: 60px;
+  bottom: 0px;
+  padding-left: 5px;
+  padding-top: 20px;
+  align-items: start;
+}
+.nav-link{
+  font-family: Arial;
+  padding: 10px 0px;
+  margin: 10px 0px;
+  justify-content: center;
+  text-align: center;
+}
+.nav-link:hover{
+  background-color: rgb(207, 206, 206);
+  cursor: pointer;
+}
+.nav-link-icon{
+  width: 24px;
+  height: 24px;
+}
+.nav-link-name{
+  font-size: 10px;
+  margin: 2px 0px;
+}
